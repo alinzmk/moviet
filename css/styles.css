@@ -1,0 +1,222 @@
+body {
+  background: rgb(57, 62, 70);
+  background: -moz-linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, rgba(104, 110, 123, 1) 9%, rgba(146, 154, 171, 1) 57%, rgba(167, 173, 186, 1) 82%, rgba(238, 238, 238, 1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, rgba(104, 110, 123, 1) 9%, rgba(146, 154, 171, 1) 57%, rgba(167, 173, 186, 1) 82%, rgba(238, 238, 238, 1) 100%);
+  background: linear-gradient(0deg, rgba(57, 62, 70, 1) 0%, rgba(104, 110, 123, 1) 9%, rgba(146, 154, 171, 1) 57%, rgba(167, 173, 186, 1) 82%, rgba(238, 238, 238, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#393e46", endColorstr="#eeeeee", GradientType=1);
+  font-family: "Montserrat";
+}
+
+img {
+  width: 30%;
+}
+
+em {
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: grey;
+}
+#title {
+  padding: 60px;
+}
+
+#features {
+  margin: auto;
+}
+
+#testimonials {
+  margin: auto auto 20px auto;
+  text-align: center;
+  padding: 60px 10px 50px 10px;
+  width: 50%;
+}
+
+#press {
+  text-align: center;
+}
+
+#footer {
+  color: black
+}
+
+#navbarSupportedContent {
+  flex-grow: 0;
+}
+
+#pricing{
+  padding-top: 6rem;
+}
+
+
+.movi {
+  width: 40%;
+}
+
+.movi-nav {
+  width: 20%;
+}
+
+.movi-top {
+  width: 300px;
+  padding-top: 10px;
+}
+
+.hey {
+  width: 100%;
+}
+
+.top {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.websitebtn {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.dowbtn {
+  margin: 10px 6px;
+  text-align: center;
+}
+
+.movie-img {
+  width: 45%;
+}
+
+.movie-img-2 {
+  width: 25%;
+  margin: 10px 30px;
+}
+
+.movi-pad {
+  padding-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  margin: 15px;
+  width: 20%;
+}
+
+.feat {
+  text-align: center;
+}
+
+.ali {
+  width: 20%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.reklam {
+  width: 10%;
+  margin: 20px 30px;
+}
+
+.reklam-2 {
+  width: 17%;
+  margin: 20px 30px;
+}
+
+.testi {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.cont {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.marginn {
+  margin: auto 1rem;
+}
+.con-founder{
+  font-weight: bold;
+  font-size: 40px;
+}
+.con-ali{
+  width: 20rem;
+  border-radius: 100%;
+}
+.conntact{
+  height: 150px;
+}
+.genislik{
+  width: 50%;
+  margin: auto;
+}
+#testimonials-con{
+  margin: auto auto 20px auto;
+  text-align: center;
+  padding: 110px 10px 50px 10px;
+  width: 90%;
+}
+.pricebody{
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .genislik{
+    width: 80%;
+    margin: auto;
+  }
+  .feat{
+    margin: 20px auto 20px auto;
+  }
+  .ilike{
+    width: 100%;
+  }
+  .reklam{
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+  }
+  .reklam-2{
+    margin: 10px auto;
+    display: block;
+    width: 90%;
+  }
+  .card{
+    width: 50%;
+    text-align: center;
+  }
+.margin{
+  margin: auto;
+}
+.carousel-inner {
+    margin: auto;
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+.cont{
+  width: auto;
+}
+  #title{
+    padding: 0;
+  }
+  #testimonials{
+    margin-top: 100px;
+    padding: 0;
+  }
+
+
+}
